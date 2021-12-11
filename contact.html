@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function openForm() {
+          document.getElementById("myForm").style.display = "block";
+        }
+        
+        function closeForm() {
+          document.getElementById("myForm").style.display = "none";
+        }
+        </script>
+</head>
+<body>
+    <!--NAVIGATION-->
+    <nav>
+        <a href="home.html"> <img src="logo.png" class="img1" alt="logo"> </a>
+        <ul>
+            <li><a href="home.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="courses.html">COURSES</a></li>
+            <li><a href="gallery.html">GALLERY</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+     </nav>
+
+<div class="contacts">
+    <h1 style="text-align: center;">Hello.</h1>
+
+<h3 style="text-align: center;">We’d love to hear from you</h3>
+
+<h5 style="text-align: center;">Whether you have a question about programs, eligibility, fees, need to know
+
+about the campus, or anything else, our team is ready to answer all your
+
+questions
+</h5>
+<br>
+<br>
+<h3>DIRECTORATE OF ADMISSIONS & ACADEMICS</h3>
+
+<ul>
+
+<li> : +91 9335177775</li>
+
+<li> : +91 6390011283, 6390011284, 6390011285, 9335177775</li>
+
+<li> : (Shahjahanpur Center) 0584 - 2232324</li>
+
+<li> : admission@iul.ac.in | directoradmacad@iul.ac.in</li>
+
+<li> /Integralunilko</li>
+
+<li> /Integralunilko_official</li>
+
+<li> /IntegralUniversity_InspiringExcellence</li>
+
+<li>  /Integralunilko</li>
+</ul>
+</div>
+
+
+<br>
+
+<!--END OF NAVIGATION-->
+    <button class="open-button" onclick="openForm()">Open Form</button>
+    <div class="form-popup" id="myForm">
+        <form action="/action_page.php" class="form-container">
+          <h1>QUERY</h1>
+      
+          <label for="email"><b>Email</b></label>
+          <input type="text" placeholder="Enter Email" name="email" required>
+      
+          <label for="psw"><b>Query</b></label>
+          <input type="text" placeholder="Query" name="psw" maxlength="4" size="4">
+      
+          <button type="submit" class="btn">submit</button>
+          <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+        </form>
+      </div>
+      <footer>
+        <p>Copyright &copy; 2019, IUL</p>
+    </footer>
+</body>
+</html>
